@@ -55,7 +55,6 @@ function updateLocalStorage() {
 
     const notes = [];
     notesText.forEach(note => notes.push(note.value));
-    console.log(notes);
 
     localStorage.setItem('notes', JSON.stringify(notes))
 }
